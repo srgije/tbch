@@ -4,7 +4,7 @@ STAGS COME BACK
 ]]
 serpent = (loadfile "libs/serpent.lua")()
 redis = (loadfile "libs/redis.lua")()
-local sudos = {123456789}
+local sudos = {697195475}
 function get_bot()
 	function bot_info (i, jove)
 		redis:set("BOT-IDbotid", jove.id)
